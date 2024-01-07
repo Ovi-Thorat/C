@@ -1,0 +1,15 @@
+#include<stdio.h>
+ int main()
+{
+    char arr [4] ;   // decleration 
+
+    arr [4] = ('A','B','C','D' );  // initialisation 
+
+    for( int i=0; i<4; i++);
+    {
+        printf ( "%c", arr);  //print 
+
+    }
+     
+    return 0;
+}
